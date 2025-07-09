@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import '../styles/globals.css';
 import '../styles/tailwind.css';
 import Provider from '@/provider';
+import PageLayout from '@/components/layout/PageLayout';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <Provider>{children}</Provider>
+        <Provider>
+          <PageLayout>{children}</PageLayout>
+        </Provider>
       </body>
     </html>
   );
