@@ -13,3 +13,72 @@
   --gray-800: #474747;
   --gray-900: #2e2e2e;
 }
+
+@layer components {
+  .title1 {
+    @apply text-[40px] leading-[48px] font-bold;
+  }
+  .title2 {
+    @apply text-[24px] leading-[32px] font-bold;
+  }
+  .label1 {
+    @apply text-[20px] leading-[28px] font-bold;
+  }
+  .label2 {
+    @apply text-[16px] leading-[20px] font-bold;
+  }
+  .body1 {
+    @apply text-[16px] leading-[20px] font-medium;
+  }
+  .body2 {
+    @apply text-[12px] leading-[16px] font-medium;
+  }
+  .caption1 {
+    @apply text-[12px] leading-[16px] font-medium;
+  }
+  .caption2 {
+    @apply text-[10px] leading-[12px] font-medium;
+  }
+}
+
+@layer components {
+  /* text-responsive-title 사용 시 sm 이상인 경우 title1, 이하인 경우 title2 적용 */
+  .text-responsive-title {
+    @apply title2;
+  }
+  @screen sm {
+    .text-responsive-title {
+      @apply title1;
+    }
+  }
+
+  /* text-responsive-label 사용 시 sm 이상인 경우 label1, 이하인 경우 label2 적용 */
+  .text-responsive-label {
+    @apply label2;
+  }
+  @screen sm {
+    .text-responsive-label {
+      @apply label1;
+    }
+  }
+
+  /* text-responsive-body 사용 시 sm 이상인 경우 body1, 이하인 경우 body2 적용 */
+  .text-responsive-body {
+    @apply body2;
+  }
+  @screen sm {
+    .text-responsive-body {
+      @apply body1;
+    }
+  }
+
+  /* text-responsive-caption 사용 시 sm 이상인 경우 caption1, 이하인 경우 caption2 적용 */
+  .text-responsive-caption {
+    @apply caption2;
+  }
+  @screen sm {
+    .text-responsive-caption {
+      @apply caption1;
+    }
+  }
+}

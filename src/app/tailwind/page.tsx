@@ -24,6 +24,15 @@ const TailwindPage = () => {
           <p className="text-caption">TEXT</p>
         </div>
       </div>
+      <div className="flex flex-col gap-3">
+        <p className="w-fit text-xl font-bold border-2 border-black px-2 py-1">TYPOGRAPHY &#40;반응형&#41;</p>
+        <div>
+          <p className="text-responsive-title">TEXT</p>
+          <p className="text-responsive-label">TEXT</p>
+          <p className="text-responsive-body">TEXT</p>
+          <p className="text-responsive-caption">TEXT</p>
+        </div>
+      </div>
     </div>
   );
 };
