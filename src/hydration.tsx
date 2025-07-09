@@ -1,5 +1,7 @@
+import ThemeHydration from './hydrations/themeHydration';
+
 const Hydration = ({ children }: { children: React.ReactNode }) => {
-  return <>{children}</>;
+  return <ThemeHydration>{children}</ThemeHydration>;
 };
 
 export default Hydration;
