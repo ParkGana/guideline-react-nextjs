@@ -1,20 +1,23 @@
 'use client';
-import { createTodoAPI } from '@/lib/Todo';
+import { useTodo } from '@/hooks/query/useTodo';
 import { useState } from 'react';
 
 const TodoCreate = () => {
+  const { createTodoMutation } = useTodo();
+
   const [title, setTitle] = useState<string>('');
 
   /* Todo 생성 */
-  const handleCreateTodo = async () => {
-    await createTodoAPI(title);
+  const handleCreateTodo = () => {
+    // await createTodoAPI(title);
+    createTodoMutation.mutate(title);
+    setTitle('');
   };
 
   /* Enter 키 입력 시 Todo 생성 */
   const handleCreateTodoWithEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       handleCreateTodo();
-      setTitle('');
     }
   };
 

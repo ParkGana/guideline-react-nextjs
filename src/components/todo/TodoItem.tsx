@@ -1,20 +1,24 @@
 import clsx from 'clsx';
 import type { TodoType } from '../../types/todoType';
-import { deleteTodoAPI, updateTodoAPI } from '@/lib/Todo';
+import { useTodo } from '@/hooks/query/useTodo';
 
 type TodoItemProps = {
   data: TodoType;
 };
 
 const TodoItem = ({ data: { id, title, completed } }: TodoItemProps) => {
+  const { updateTodoMutation, deleteTodoMutation } = useTodo();
+
   /* Todo 수정 */
-  const handleUpdateTodo = async () => {
-    await updateTodoAPI({ id, completed: !completed });
+  const handleUpdateTodo = () => {
+    // await updateTodoAPI({ id, completed: !completed });
+    updateTodoMutation.mutate({ id, completed: !completed });
   };
 
   /* Todo 삭제 */
-  const handleDeleteTodo = async () => {
-    await deleteTodoAPI(id);
+  const handleDeleteTodo = () => {
+    // await deleteTodoAPI(id);
+    deleteTodoMutation.mutate(id);
   };
 
   return (
