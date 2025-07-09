@@ -20,7 +20,7 @@ const TodoCreate = () => {
 
   return (
     <input
-      className="w-full text-body rounded-md border border-gray-300 p-3"
+      className="w-full text-body rounded-md border border-gray-300 bg-gray-100 p-3"
       value={title}
       placeholder="할 일을 입력해주세요."
       autoComplete="off"

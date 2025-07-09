@@ -14,6 +14,18 @@
   --gray-900: #2e2e2e;
 }
 
+.dark {
+  --gray-100: #2e2e2e;
+  --gray-200: #474747;
+  --gray-300: #616161;
+  --gray-400: #7a7a7a;
+  --gray-500: #949494;
+  --gray-600: #adadad;
+  --gray-700: #c7c7c7;
+  --gray-800: #e0e0e0;
+  --gray-900: #fafafa;
+}
+
 @layer components {
   .title1 {
     @apply text-[40px] leading-[48px] font-bold;

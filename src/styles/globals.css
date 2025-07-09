@@ -11,4 +11,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--gray-900);
+}
+
+body {
+  background-color: var(--gray-100);
 }

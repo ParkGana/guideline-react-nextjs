@@ -20,15 +20,18 @@ const TodoItem = ({ data: { id, title, completed } }: TodoItemProps) => {
   return (
     <div className="relative flex items-center justify-between">
       <p
-        className={clsx('text-body bg-white px-3 cursor-pointer', completed && 'text-gray-600 line-through')}
+        className={clsx(
+          'relative z-10 text-body bg-gray-100 px-3 cursor-pointer',
+          completed && 'text-gray-600 line-through'
+        )}
         onClick={handleUpdateTodo}
       >
         {title}
       </p>
-      <p className="text-body text-red-500 bg-white px-3 cursor-pointer" onClick={handleDeleteTodo}>
+      <p className="relative z-10 text-body text-red-500 bg-gray-100 px-3 cursor-pointer" onClick={handleDeleteTodo}>
         삭제
       </p>
-      <div className="absolute top-1/2 left-0 right-0 -z-10 border-b-2 border-dashed border-gray-200" />
+      <div className="absolute top-1/2 left-0 right-0 border-b-2 border-dashed border-gray-200" />
     </div>
   );
 };
