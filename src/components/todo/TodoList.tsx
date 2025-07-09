@@ -1,19 +1,24 @@
 'use client';
-import { useEffect, useState } from 'react';
-import type { TodoType } from '../../types/todoType';
-import { fetchTodosAPI } from '@/lib/Todo';
 import TodoItem from './TodoItem';
+import { useTodo } from '@/hooks/query/useTodo';
 
 const TodoList = () => {
-  const [todos, setTodos] = useState<TodoType[]>([]);
+  //   const [todos, setTodos] = useState<TodoType[]>([]);
 
-  useEffect(() => {
-    const fetchTodos = async () => {
-      const res = await fetchTodosAPI();
-      setTodos(res);
-    };
-    fetchTodos();
-  }, []);
+  //   useEffect(() => {
+  //     const fetchTodos = async () => {
+  //       const res = await fetchTodosAPI();
+  //       setTodos(res);
+  //     };
+  //     fetchTodos();
+  //   }, []);
+
+  const {
+    fetchTodosQuery: { data: todos, isPending, isError }
+  } = useTodo();
+
+  if (isPending) return <div>Loading...</div>;
+  if (isError) return <div>Error...</div>;
 
   return (
     <div className="flex flex-col gap-5">
