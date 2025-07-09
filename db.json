@@ -1,3 +1,760 @@
 {
-  "todos": []
+  "todos": [],
+  "pokemons": [
+    {
+      "id": "1",
+      "name": "이상해씨",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "id": "2",
+      "name": "이상해풀",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+      "id": "3",
+      "name": "이상해꽃",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    {
+      "id": "4",
+      "name": "파이리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "id": "5",
+      "name": "리자드",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    {
+      "id": "6",
+      "name": "리자몽",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    {
+      "id": "7",
+      "name": "꼬부기",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+      "id": "8",
+      "name": "어니부기",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+      "id": "9",
+      "name": "거북왕",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    },
+    {
+      "id": "10",
+      "name": "캐터피",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    {
+      "id": "11",
+      "name": "단데기",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    {
+      "id": "12",
+      "name": "버터플",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    },
+    {
+      "id": "13",
+      "name": "뿔충이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    {
+      "id": "14",
+      "name": "딱충이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    {
+      "id": "15",
+      "name": "독침붕",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    {
+      "id": "16",
+      "name": "구구",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    {
+      "id": "17",
+      "name": "피죤",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    {
+      "id": "18",
+      "name": "피죤투",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    },
+    {
+      "id": "19",
+      "name": "꼬렛",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+    },
+    {
+      "id": "20",
+      "name": "레트라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+    },
+    {
+      "id": "21",
+      "name": "깨비참",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    {
+      "id": "22",
+      "name": "깨비드릴조",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    },
+    {
+      "id": "23",
+      "name": "아보",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    {
+      "id": "24",
+      "name": "아보크",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    },
+    {
+      "id": "25",
+      "name": "피카츄",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": "26",
+      "name": "라이츄",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    },
+    {
+      "id": "27",
+      "name": "모래두지",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+    },
+    {
+      "id": "28",
+      "name": "고지",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+    },
+    {
+      "id": "29",
+      "name": "니드런♀",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+    },
+    {
+      "id": "30",
+      "name": "니드리나",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+    },
+    {
+      "id": "31",
+      "name": "니드퀸",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+    },
+    {
+      "id": "32",
+      "name": "니드런♂",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+    },
+    {
+      "id": "33",
+      "name": "니드리노",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+    },
+    {
+      "id": "34",
+      "name": "니드킹",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+    },
+    {
+      "id": "35",
+      "name": "삐삐",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+    },
+    {
+      "id": "36",
+      "name": "픽시",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    },
+    {
+      "id": "37",
+      "name": "식스테일",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    },
+    {
+      "id": "38",
+      "name": "나인테일",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    },
+    {
+      "id": "39",
+      "name": "푸린",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    {
+      "id": "40",
+      "name": "푸크린",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    },
+    {
+      "id": "41",
+      "name": "주뱃",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    {
+      "id": "42",
+      "name": "골뱃",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    {
+      "id": "43",
+      "name": "뚜벅쵸",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    {
+      "id": "44",
+      "name": "냄새꼬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    {
+      "id": "45",
+      "name": "라플레시아",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    {
+      "id": "46",
+      "name": "파라스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    },
+    {
+      "id": "47",
+      "name": "파라섹트",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    },
+    {
+      "id": "48",
+      "name": "콘팡",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+    },
+    {
+      "id": "49",
+      "name": "도나리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+    },
+    {
+      "id": "50",
+      "name": "디그다",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+    },
+    {
+      "id": "51",
+      "name": "닥트리오",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+    },
+    {
+      "id": "52",
+      "name": "나옹",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+    },
+    {
+      "id": "53",
+      "name": "페르시온",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+    },
+    {
+      "id": "54",
+      "name": "고라파덕",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    },
+    {
+      "id": "55",
+      "name": "골덕",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    },
+    {
+      "id": "56",
+      "name": "망키",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+    },
+    {
+      "id": "57",
+      "name": "성원숭",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+    },
+    {
+      "id": "58",
+      "name": "가디",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    {
+      "id": "59",
+      "name": "윈디",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    },
+    {
+      "id": "60",
+      "name": "발챙이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    {
+      "id": "61",
+      "name": "슈륙챙이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    {
+      "id": "62",
+      "name": "강챙이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    {
+      "id": "63",
+      "name": "캐이시",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+    },
+    {
+      "id": "64",
+      "name": "윤겔라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+    },
+    {
+      "id": "65",
+      "name": "후딘",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+    },
+    {
+      "id": "66",
+      "name": "알통몬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    {
+      "id": "67",
+      "name": "근육몬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    {
+      "id": "68",
+      "name": "괴력몬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    },
+    {
+      "id": "69",
+      "name": "모다피",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    {
+      "id": "70",
+      "name": "우츠동",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    {
+      "id": "71",
+      "name": "우츠보트",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    },
+    {
+      "id": "72",
+      "name": "왕눈해",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    },
+    {
+      "id": "73",
+      "name": "독파리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    },
+    {
+      "id": "74",
+      "name": "꼬마돌",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+    },
+    {
+      "id": "75",
+      "name": "데구리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+    },
+    {
+      "id": "76",
+      "name": "딱구리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+    },
+    {
+      "id": "77",
+      "name": "포니타",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+    },
+    {
+      "id": "78",
+      "name": "날쌩마",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+    },
+    {
+      "id": "79",
+      "name": "야돈",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+    },
+    {
+      "id": "80",
+      "name": "야도란",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    {
+      "id": "81",
+      "name": "코일",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+    },
+    {
+      "id": "82",
+      "name": "레어코일",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+    },
+    {
+      "id": "83",
+      "name": "파오리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+    },
+    {
+      "id": "84",
+      "name": "두두",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+    },
+    {
+      "id": "85",
+      "name": "두트리오",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+    },
+    {
+      "id": "86",
+      "name": "쥬쥬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+    },
+    {
+      "id": "87",
+      "name": "쥬레곤",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    },
+    {
+      "id": "88",
+      "name": "질퍽이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+    },
+    {
+      "id": "89",
+      "name": "질뻐기",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+    },
+    {
+      "id": "90",
+      "name": "셀러",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+    },
+    {
+      "id": "91",
+      "name": "파르셀",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    },
+    {
+      "id": "92",
+      "name": "고오스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    },
+    {
+      "id": "93",
+      "name": "고우스트",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    },
+    {
+      "id": "94",
+      "name": "팬텀",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    },
+    {
+      "id": "95",
+      "name": "롱스톤",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+    },
+    {
+      "id": "96",
+      "name": "슬리프",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+    },
+    {
+      "id": "97",
+      "name": "슬리퍼",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+    },
+    {
+      "id": "98",
+      "name": "크랩",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+    },
+    {
+      "id": "99",
+      "name": "킹크랩",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+    },
+    {
+      "id": "100",
+      "name": "찌리리공",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+    },
+    {
+      "id": "101",
+      "name": "붐볼",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+    },
+    {
+      "id": "102",
+      "name": "아라리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+    },
+    {
+      "id": "103",
+      "name": "나시",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+    },
+    {
+      "id": "104",
+      "name": "탕구리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    },
+    {
+      "id": "105",
+      "name": "텅구리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    },
+    {
+      "id": "106",
+      "name": "시라소몬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+    },
+    {
+      "id": "107",
+      "name": "홍수몬",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+    },
+    {
+      "id": "108",
+      "name": "내루미",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    {
+      "id": "109",
+      "name": "또가스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+    },
+    {
+      "id": "110",
+      "name": "또도가스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+    },
+    {
+      "id": "111",
+      "name": "뿔카노",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    {
+      "id": "112",
+      "name": "코뿌리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    {
+      "id": "113",
+      "name": "럭키",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    {
+      "id": "114",
+      "name": "덩쿠리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    {
+      "id": "115",
+      "name": "캥카",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+    },
+    {
+      "id": "116",
+      "name": "쏘드라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+    },
+    {
+      "id": "117",
+      "name": "시드라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+    },
+    {
+      "id": "118",
+      "name": "콘치",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    },
+    {
+      "id": "119",
+      "name": "왕콘치",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    },
+    {
+      "id": "120",
+      "name": "별가사리",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    {
+      "id": "121",
+      "name": "아쿠스타",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    },
+    {
+      "id": "122",
+      "name": "마임맨",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+    },
+    {
+      "id": "123",
+      "name": "스라크",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    {
+      "id": "124",
+      "name": "루주라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+    },
+    {
+      "id": "125",
+      "name": "에레브",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+    },
+    {
+      "id": "126",
+      "name": "마그마",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    {
+      "id": "127",
+      "name": "쁘사이저",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    },
+    {
+      "id": "128",
+      "name": "켄타로스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+    },
+    {
+      "id": "129",
+      "name": "잉어킹",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+    },
+    {
+      "id": "130",
+      "name": "갸라도스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    },
+    {
+      "id": "131",
+      "name": "라프라스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+    },
+    {
+      "id": "132",
+      "name": "메타몽",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+    },
+    {
+      "id": "133",
+      "name": "이브이",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    },
+    {
+      "id": "134",
+      "name": "샤미드",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    {
+      "id": "135",
+      "name": "쥬피썬더",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    {
+      "id": "136",
+      "name": "부스터",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    {
+      "id": "137",
+      "name": "폴리곤",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+    },
+    {
+      "id": "138",
+      "name": "암나이트",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+    },
+    {
+      "id": "139",
+      "name": "암스타",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+    },
+    {
+      "id": "140",
+      "name": "투구",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+    },
+    {
+      "id": "141",
+      "name": "투구푸스",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+    },
+    {
+      "id": "142",
+      "name": "프테라",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+    },
+    {
+      "id": "143",
+      "name": "잠만보",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    },
+    {
+      "id": "144",
+      "name": "프리져",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+    },
+    {
+      "id": "145",
+      "name": "썬더",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+    },
+    {
+      "id": "146",
+      "name": "파이어",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+    },
+    {
+      "id": "147",
+      "name": "미뇽",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+    },
+    {
+      "id": "148",
+      "name": "신뇽",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+    },
+    {
+      "id": "149",
+      "name": "망나뇽",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    },
+    {
+      "id": "150",
+      "name": "뮤츠",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+    },
+    {
+      "id": "151",
+      "name": "뮤",
+      "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+    }
+  ]
 }
