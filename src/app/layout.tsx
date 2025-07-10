@@ -4,6 +4,7 @@ import '../styles/tailwind.css';
 import Provider from '@/provider';
 import PageLayout from '@/components/layout/PageLayout';
 import Hydration from '@/hydration';
+import Registry from '@/registry';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,7 +21,9 @@ export default function RootLayout({
       <body>
         <Provider>
           <Hydration>
-            <PageLayout>{children}</PageLayout>
+            <Registry>
+              <PageLayout>{children}</PageLayout>
+            </Registry>
           </Hydration>
         </Provider>
       </body>
