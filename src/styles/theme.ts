@@ -111,4 +111,20 @@ export const theme = {
   }
 };
 
+export const darkTheme = {
+  ...theme,
+  color: {
+    ...theme.color,
+    gray100: '#2e2e2e',
+    gray200: '#474747',
+    gray300: '#616161',
+    gray400: '#7a7a7a',
+    gray500: '#949494',
+    gray600: '#adadad',
+    gray700: '#c7c7c7',
+    gray800: '#e0e0e0',
+    gray900: '#fafafa'
+  }
+};
+
 export type StyledTheme = typeof theme;
