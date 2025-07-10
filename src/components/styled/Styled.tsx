@@ -42,6 +42,15 @@ const Styled = () => {
           <Typography $text="caption">TEXT</Typography>
         </div>
       </div>
+      <div className="flex flex-col gap-3">
+        <p className="w-fit text-xl font-bold border-2 border-gray-900 px-2 py-1">TYPOGRAPHY &#40;반응형&#41;</p>
+        <div>
+          <Typography $text="responsiveTitle">TEXT</Typography>
+          <Typography $text="responsiveLabel">TEXT</Typography>
+          <Typography $text="responsiveBody">TEXT</Typography>
+          <Typography $text="responsiveCaption">TEXT</Typography>
+        </div>
+      </div>
     </div>
   );
 };
